@@ -54,6 +54,19 @@ body {
     max-width: 50px;
 }
 
+.player__button.fullscreen {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.player__button.fullscreen sub {
+    margin-right: -2px;
+}
+
+.player__button.fullscreen sup {
+    margin-left: -2px;
+}
+
 .player__button:focus {
     border-color: #ffc600;
 }
